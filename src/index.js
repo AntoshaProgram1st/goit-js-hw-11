@@ -1,4 +1,4 @@
-import '../css/styles.css';
+import '../src/css/style.css';
 import '../node_modules/simplelightbox/dist/simple-lightbox.min.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
