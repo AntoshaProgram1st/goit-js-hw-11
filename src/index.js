@@ -1,10 +1,10 @@
-import './css/styles.css';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import '../css/styles.css';
+import '../node_modules/simplelightbox/dist/simple-lightbox.min.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import generateCardMarkup from './js/card-template';
 import PixabayAPI from './js/PixabayAPI';
-import throttle from 'lodash.throttle';
+import throttle from '../node_modules/lodash.throttle/index';
 
 const refs = {
   searchForm: document.querySelector('#search-form'),
